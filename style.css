@@ -1,0 +1,64 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2BC8DE;
+}
+
+h1{
+    font-size: 4rem;
+    color: #F0FBFD;
+    text-shadow: 0px 1px 3px #04161A;
+}
+
+.grid-container{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 960px ;
+    gap: 2rem;
+
+}
+
+.grid{
+   display: flex;
+
+}
+
+.square {
+    width: 30px;
+    height:30px;
+    border: 1.8px solid #F0FBFD;
+    transition: background-color 0.5s ease;
+}
+
+.square:hover{
+    background-color: #5F8AE6;
+    transition: 0s;
+}
+
+input{
+    min-height: 1.5rem;
+    border: transparent;
+    border-radius: 10px;
+    padding: .5rem;
+}
+
+button{
+    min-height: 1.5rem;
+    border: transparent;
+    border-radius: 10px;
+    padding: .5rem; 
+    background-color: #04161A;
+    color: #F0FBFD;
+    transition: transform 0.3s ease;
+}
+
+button:hover{
+    transform: scale(1.1); 
+    transition-duration: .6s; 
+}
